@@ -11,6 +11,7 @@ ol {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 input {
@@ -128,7 +129,89 @@ main {
 
 .n1 {
   background-image: url("/4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+.frist-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ph {
+  color: #8643dc;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.socials {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.app {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 33px 60px;
+
+  border-radius: 8px;
+}
+.app:nth-child(1) {
+  border: 1px solid #f3ccda;
+  background-color: #ffe7f0;
+  transition: all 0.5s;
+}
+.app:nth-child(1):hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+.app:nth-child(2) {
+  border: 1px solid #b3fdd3;
+  background-color: #caffe1;
+  transition: all 0.5s;
+}
+.app:nth-child(2):hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+
+.app:nth-child(3) {
+  border: 1px solid #b3fdd3;
+  background-color: #ddf5df;
+  transition: all 0.5s;
+}
+.app:nth-child(3):hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+.app:nth-child(4) {
+  border: 1px solid #faf9ad;
+  background-color: #fffec9;
+  transition: all 0.5s;
+}
+.app:nth-child(4):hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+.app:nth-child(5) {
+  border: 1px solid #d0f8b5;
+  background-color: #2a520f;
+  transition: all 0.5s;
+}
+.app:nth-child(5):hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+
 @media (max-width: 1030px) {
   .hiro-sec {
     flex-direction: column-reverse;
@@ -148,6 +231,21 @@ main {
     border-bottom: 2px solid purple;
     border-bottom: 5px;
   }
+}
+.user-info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.UI {
+  margin-top: 50px;
+}
+.blogs {
+  display: flex;
+  gap: 50px;
 }
 
 @media (max-width: 570px) {
@@ -172,5 +270,71 @@ main {
 
   .box {
     width: 100%;
+  }
+}
+
+@media (max-width: 1330px) {
+  .users-images {
+    img {
+      width: 500px;
+    }
+  }
+  .blogs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .users-images {
+    gap: 10px;
+  }
+  .socials {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .clients-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1030px) {
+  .users-images {
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 600px;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .users-images {
+    img {
+      width: 500px;
+    }
+  }
+}
+
+@media (max-width: 517px) {
+  .users-images {
+    img {
+      width: 400px;
+    }
+  }
+  .user-text {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 417px) {
+  .users-images {
+    img {
+      width: 300px;
+    }
   }
 }
