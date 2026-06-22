@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  border: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  a {
+    color: black;
+  }
+}
+.continer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hiro-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.talk-btn {
+  padding: 15px 30px;
+  background-color: #8643dc;
+  color: white;
+  border-radius: 14px;
+  transition: all 0.5s;
+}
+
+.talk-btn:hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+
+.img-hiro {
+  margin-top: -210px;
+}
+
+.boxs {
+  display: flex;
+
+  gap: 50px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 10px;
+}
+.box-img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-information {
+  display: flex;
+  flex-direction: column;
+
+  gap: 100px;
+}
+
+.users-images {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.n1 {
+  background-image: url("/4.png");
+}
+@media (max-width: 1030px) {
+  .hiro-sec {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 50px;
+    img {
+      margin-top: -100px;
+      width: 400px;
+    }
+  }
+}
+
+.info-text {
+  margin-bottom: 50px;
+  h4 {
+    color: purple;
+    border-bottom: 2px solid purple;
+    border-bottom: 5px;
+  }
+}
+
+@media (max-width: 570px) {
+  .navBar {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hiro-sec {
+    img {
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .boxs {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+}
