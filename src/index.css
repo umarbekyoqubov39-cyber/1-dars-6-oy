@@ -212,6 +212,10 @@ main {
   cursor: pointer;
 }
 
+.UII {
+  margin-top: 70px;
+}
+
 @media (max-width: 1030px) {
   .hiro-sec {
     flex-direction: column-reverse;

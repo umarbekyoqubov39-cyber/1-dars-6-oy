@@ -165,7 +165,7 @@ function APP() {
           </div>
         </section>
 
-        <section className="UI">
+        <section className="UII">
           <div className="continer blogs">
             <div className="blog-text">
               <p className="ph">Blog</p>
@@ -180,10 +180,10 @@ function APP() {
               </h2>
             </div>
             <div className="blog">
-              <img className="blog-img" src="/13.svg" alt="" />
+              <img className="blog-img" src="/www.svg" alt="" />
             </div>
             <div className="blog">
-              <img className="blog-img" src="/13.svg" alt="" />
+              <img className="blog-img" src="/ubx.svg" alt="" />
             </div>
           </div>
         </section>
